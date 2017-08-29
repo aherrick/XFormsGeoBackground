@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XFormsGeoBackground"
+             x:Class="XFormsGeoBackground.MainPage">
+
+    <StackLayout Padding="20" Spacing="10">
+
+        <Button x:Name="StartTracking" Command="StartTrackingTripCommand">Start Tracking</Button>
+        <Button x:Name="StopTracking" Command="StopTrackingTripCommand">Stop Tracking</Button>
+
+    </StackLayout>
+
+</ContentPage>
